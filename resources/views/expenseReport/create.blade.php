@@ -14,13 +14,9 @@
               <label for="title">Title:</label>
               <input type="text" class="form-control" id="title" name="title" placeholder="Type a title">
             </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+            <a class="btn btn-secondary" href="/expense_reports">Back</a>
           </form>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-          <button class="btn btn-primary" type="submit">Submit</button>
-          <a class="btn btn-secondary" href="/expense_reports">Back</a>
         </div>
     </div>
 @endsection
