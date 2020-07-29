@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Expense extends Model
 {
-    pubic function expenseReport(){
+    public function expenseReport(){
         return $this->belongsTo(ExpenseReport::class);
     }
 }
