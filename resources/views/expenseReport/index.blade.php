@@ -1,7 +1,8 @@
 @extends('layouts.base')
 
 @section('content')
-    <div class="row">
+<div class="container">
+      <div class="row">
         <div class="col">
               <h1>Reports</h1>
         </div>
@@ -24,4 +25,5 @@
             <a class="btn btn-primary" href="/expense_reports/create">Create a new report</a>
         </div>
     </div>
+</div>
 @endsection
